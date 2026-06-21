@@ -6,7 +6,9 @@
 
 - [INTRODUCTION](#Introduction)
 
-- [DATA DESCRIPTION](#Data-Description)
+- [DATA SOURCE](#Data-Source)
+
+- [Problem Statement](#Problem-Statement)
 
 - [Data Collection and Preparation ](#Data-Collection-and-Preparation)
 
@@ -27,17 +29,10 @@ The increasing adoption of credit cards as a convenient and secure payment metho
 This project focuses on the analysis of a Credit Card Transaction Dataset containing information such as transaction dates, cities, card types, expense categories, customer gender, transaction amounts, month names, and years. The dataset was cleaned and transformed to ensure data quality and consistency before performing exploratory data analysis and creating interactive visualizations.
 The main objective of this project is to analyze customers' spending behavior across different cities and time periods, examine the popularity of various card types, and investigate spending patterns based on gender and expense categories. The inclusion of month and year variables also enables the study of seasonal and yearly transaction trends.
 
-## Data-Description
-The data is structured in a tabular format where each row represents a single transaction made by a customer on a specific date. It is designed to support sales analytics such as revenue tracking, customer behavior analysis, and product performance evaluation.
-- Date – The exact date the transaction occurred
-- Customer_ID – Unique identifier for each customer
-- Transaction_ID – Unique ID for each sales transaction
-- SKU_Category – Product category code
-- SKU – Unique product identifier
-- Quantity – Number of items purchased per transaction
-- Sales_Amount – Revenue generated per item/transaction line
-- Year – Year extracted from the date (e.g., 2016)
-- Month – Month extracted from the date (e.g., January)
+## Data-Source
+The dataset used in this project was obtained from an online tutorial for educational and learning purposes. The dataset contains credit card transaction records from various cities in India, including information such as transaction date, city, card type, expense type, gender, transaction amount, month, and year. The data was used to perform  analysis and dashboard visualization in Power BI.
+
+## Problem-Statement
 
 ## Data Collection and Preparation 
 #### Raw data:
