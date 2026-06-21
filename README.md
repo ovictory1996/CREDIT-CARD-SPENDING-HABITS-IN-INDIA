@@ -10,7 +10,7 @@
 
 - [PROBLEM STATEMENT](#Problem-Statement)
 
-- [Data Analysis](#Data-Analysis)
+- [DATA COLLECTION AND PREPARATION](#Data-Collection-and-Preparation)
 
 - [Skills demonstrated](#Skills-demonstrated)
 
@@ -40,7 +40,7 @@ This project aims to analyze credit card transaction data to understand customer
 - What are the key performance indicators (KPIs), namely: Total Amount Spent, Average Transaction Amount, Total Number of Transactions
 To address these questions, the dataset was cleaned and transformed in Excel, and an interactive dashboard was developed in Power BI. DAX (Data Analysis Expressions) was used to create measures for calculating KPIs and supporting data visualization.
 
-## Data Collection and Preparation 
+## Data-Collection-and-Preparation 
 #### Raw data:
 The dataset on Retail Store Transaction was obtained from Kaggle.
 [Download CREDIT CARD SPENDING HABITS](Credit_card_raw_data.xlsx)
