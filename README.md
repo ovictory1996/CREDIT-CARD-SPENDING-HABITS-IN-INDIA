@@ -18,9 +18,9 @@
 
 - [Insight from analysis](#Insight-from-analysis)
 
-- [Summary of Analysis](#Summary-of-Analysis)
-
 - [Conclusion](#Conclusion)
+
+- [RECOMMENDATION](#RECOMMENDATION)
 
 ## INTRODUCTION
 The increasing adoption of credit cards as a convenient and secure payment method has led to a significant rise in electronic financial transactions worldwide. These transactions generate large volumes of data that can be analyzed to understand customer spending habits, identify market trends, and support strategic decision-making. Data analytics plays an important role in transforming raw transaction records into meaningful insights that can improve business performance and customer satisfaction.
@@ -52,42 +52,41 @@ The dataset on Retail Store Transaction was obtained from Kaggle.
         
 ## SKILLS DEMONSTRATED:
  - Excel:
-    - The first column, which contains the row numbering, was removed because it is not necessary for the analysis.
+    - Checked and removed duplicates to ensure data quality and accuracy.
+    - Created new columns for Month Name and Year from the transaction date to enable time-based analysis.
+    - Standardized the Gender column by replacing shorthand values (M and F) with full labels (Male and Female) for consistency
     - convert it as a Table
-    - Remove the duplicates
-    - creating a new Column for Year, Month, Day and Total REvenue
 
  - Powerbi:
      - importing the dataset from the excel
-     - creating the measures using DAX (Data Analysis Expressions) to perform dynamic calculations. These measures included Total customer, Total sales and Total quantity.
+     - creating the measures using DAX (Data Analysis Expressions) to perform dynamic calculations. These measures included Total Amount Spent, Average Transaction Amount, Total Number of Transactions
   
-      - Data visualization 
-      - Dashboard development 
-      - Insight Generation
-  
-  ### Data Analysis:
-  - Top 20 Sum of Sales_Amount by Customer_ID
-  - Sum of Total_Revenue by Day
-  - Total_Revenue by Month
+  ## Data Analysis:
+ - Total_Amount_Spent by Month_Name
+ - Total_Amount_Spent by Gender
+ - Total_Amount_Spent by Exp_Type
+ - Top 10 Total_Amount_Spent by City
 
 ## Visualizations:
-       - To better understand sales performance, customer purchasing behavior, and revenue trends, the dataset was first cleaned and transformed in Microsoft Excel before being imported into Power BI for analysis and visualization. Several interactive dashboards and visualizations were created to provide meaningful insights into the sales transactions recorded in the dataset.
-The visualizations developed include:
-            - Line Charts (Trend Analysis): Used to analyze total revenue trends over Month
-            - Column Chart: It provides insight into daily sales performance, highlights the highest and lowest revenue-generating days
-            - Waterfall Chart: This visualization displays the cumulative contribution of the top 20 customers based on total sales amount.
-            - Cards/KPI Visualizations: Used to present important measures such as Total Revenue Total Customers, and Total Quantity Sold.
-
- - ![Retail](retail_pic.png)
+ - ![credit](credit.png)
 
 ## Insight from analysis
-- The monthly revenue trend reveals that the business is highly influenced by seasonal demand, with December acting as the strongest revenue driver. June provides a secondary boost, while August represents a slowdown period. Understanding this pattern allows better planning for inventory, marketing, and revenue forecasting.
-- The daily revenue trend shows that customer purchasing behavior is strongly influenced by the weekly cycle. Friday stands out as the highest revenue-generating day, driven by pre-weekend shopping activity, while Sunday records the lowest due to reduced consumer engagement.
+- The analysis shows that female customers spent a higher total amount than male customers
+- Greater Mumbai had the highest number of customers in the dataset, followed by Bengaluru and Ahmedabad.
+- January recorded the highest spending amount in 2015, while August had the highest spending amount in 2014. In 2013, spending amounts were recorded only in October, November, and December, with December emerging as the month with the highest spending amount.
+- The analysis revealed that customers spent more on Food than on any other expense type.
 
 ## Conclusion
-- This project analyzed retail sales transaction data using Power BI to gain insights into customer behavior, sales performance, and revenue trends. Through the use of KPI cards, monthly revenue analysis, daily revenue analysis, and customer sales analysis, important patterns were identified that can support business decision-making. The analysis revealed that sales performance varies across different periods. December recorded the highest revenue, indicating a strong seasonal effect likely driven by increased customer spending during the festive period, while August recorded the lowest revenue, suggesting a period of reduced demand. Similarly, daily sales analysis showed that Friday generated the highest revenue, followed by Thursday, whereas Sunday recorded the lowest revenue, highlighting the influence of weekly purchasing patterns on business performance.
+- The analysis of customer spending patterns provides clear insights into behavior across cities, time periods, and expense categories. Greater Mumbai recorded the highest total spending, followed by Ahmedabad and Bengaluru, indicating stronger customer activity in these locations.
+Monthly trends show fluctuations in spending over time, with January 2015, August 2014, and December 2013 recording the highest spending amounts in their respective years. This suggests that customer spending varies significantly across different periods.
+In terms of expense types, Food recorded the highest spending amount, showing that customers allocate a large portion of their spending to this category. Additionally, female customers accounted for a higher proportion of transactions after data cleaning and standardization.
+Overall, these insights highlight important patterns in customer behavior that can support better decision-making in marketing, customer targeting, and business strategy.
 
-
-
+# RECOMMENDATION
+- Businesses should focus more on high-performing locations such as Greater Mumbai, Ahmedabad, and Bengaluru by implementing targeted marketing strategies to further increase customer engagement and revenue.
+- Since Food recorded the highest spending amount, companies should prioritize expanding food-related products and services to meet customer demand and maximize profit opportunities.
+- Seasonal spending patterns should be leveraged by planning promotional campaigns during peak months such as January, August, and December to boost sales.
+- Customer segmentation strategies should be developed based on spending behavior, particularly focusing on gender and location to improve personalized marketing.
+- Further analysis can be conducted to explore the factors influencing spending behavior across different card types and expense categories for more business insights.
 
 
