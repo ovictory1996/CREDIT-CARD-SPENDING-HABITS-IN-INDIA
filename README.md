@@ -34,18 +34,12 @@ The dataset used in this project was obtained from an online tutorial for educat
 
 ## Problem-Statement
 Financial institutions generate large volumes of credit card transaction data every day. However, extracting meaningful insights from these transactions can be challenging due to the large amount of data and the variety of factors influencing customer spending behavior.
-
 This project aims to analyze credit card transaction data to understand customer spending behavior and identify key spending trends. The analysis seeks to answer the following questions:
-
 - What is the total amount spent in each month?
 - How does the total amount spent vary by gender?
 - Which expense categories (Exp_Type) contribute the most to total spending?
 - Which are the top 10 cities based on total amount spent?
-- What are the key performance indicators (KPIs), namely:
-### Total Amount Spent
-### Average Transaction Amount
-### Total Number of Transactions
-
+- What are the key performance indicators (KPIs), namely: Total Amount Spent, Average Transaction Amount, Total Number of Transactions
 To address these questions, the dataset was cleaned and transformed in Excel, and an interactive dashboard was developed in Power BI. DAX (Data Analysis Expressions) was used to create measures for calculating KPIs and supporting data visualization.
 
 ## Data Collection and Preparation 
