@@ -10,8 +10,6 @@
 
 - [PROBLEM STATEMENT](#Problem-Statement)
 
-- [Data Collection and Preparation ](#Data-Collection-and-Preparation)
-
 - [Data Analysis](#Data-Analysis)
 
 - [Skills demonstrated](#Skills-demonstrated)
@@ -45,11 +43,13 @@ To address these questions, the dataset was cleaned and transformed in Excel, an
 ## Data Collection and Preparation 
 #### Raw data:
 The dataset on Retail Store Transaction was obtained from Kaggle.
-[Download Retail Store Transcation](Retail_raw_data.xlsx)
+[Download CREDIT CARD SPENDING HABITS](Credit_card_raw_data.xlsx)
 
 ### Tools used: 
-        - Excel 
-        - Powerbi
+        - MICROSOFT Excel - Data Cleaning and Transformation
+        - Powerbi - Data visualization and dashboard development.
+        - DAX - Creation of calculated measures and KPIs. 
+        
 ## SKILLS DEMONSTRATED:
  - Excel:
     - The first column, which contains the row numbering, was removed because it is not necessary for the analysis.
